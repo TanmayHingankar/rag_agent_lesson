@@ -147,20 +147,6 @@ The workflow is not just a single generation prompt. The evaluator is a separate
 - **Small persistent JSON memory** is sufficient for a take-home and easy to inspect. Production would use a database/vector store.
 - **Maximum two retries** guarantees termination and controls API cost.
 
-## Loom walkthrough
-
-Suggested 15–20 minute flow:
-
-1. Explain the assignment and architecture (2–3 min).
-2. Show repository structure (1–2 min).
-3. Explain generator prompt and rubric (3 min).
-4. Run `--demo-error` and show the evaluator rejecting the first attempt (3–4 min).
-5. Show retry feedback and passing lesson (2–3 min).
-6. Open `rejection_log.md` and `memory.json` (2 min).
-7. Explain trade-offs, production improvements, and tests (2–3 min).
-
-For the face-visible requirement, record the walkthrough with your camera visible while sharing the terminal/editor.
-
 ## Production extensions
 
 - Replace JSON memory with PostgreSQL + vector memory.
