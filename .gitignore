@@ -1,0 +1,7 @@
+.env
+__pycache__/
+.pytest_cache/
+*.pyc
+.venv/
+outputs/run_*.json
+data/memory.json
