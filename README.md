@@ -4,6 +4,9 @@ A take-home implementation for **GenAI Engineer – Content Systems**.
 
 The system builds a beginner lesson from zero knowledge, evaluates it using hard PASS/FAIL rubric checks, regenerates failed lessons with evaluator feedback, and persists learning signals across runs.
 
+## Detailed Document : https://drive.google.com/file/d/1Y9f9P_0hM78R5QQ8nv-RTjbPBe1w8RA4/view?usp=sharing
+
+
 ## What is included
 
 - Generate → Evaluate → Regenerate agentic loop
